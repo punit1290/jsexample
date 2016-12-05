@@ -53,15 +53,56 @@ var re = "what is your question";
 var rd = ["how", "can", "you", "define", "this"];
 var re = rd.slice(1,4);
 console.log(re)
-
 //substring
-var 
+var str = "Hello world!"; 
+    var res = str.substring(6,9);
+    console.log(res)
+
+//substr
+var str = "Hello world!"; 
+    var res = str.substr(3,9);
+    console.log(res)
+
+//match
+
+var str = "The rain in SPAIN stays mainly in the plain";
+var res = str.match(/ai/gi); 
+console.log(res)
+
+//replace
+var str = "Visit Microsoft!";
+var res = str.replace("Microsoft", "World");
+console.log(res)
+
+//search
+
+    var str = "Visit kashmir";
+var n = str.search("kashmir");
+console.log(n)
+
+//toLowerCase
+var str = "Hello EVERYONE!";
+var res = str.toLowerCase();
+console.log(res)
+
+
+
+//toUpperCase
+var str = "not everyone!";
+var res = str.toUpperCase();
+console.log(res)
+
+//repeat
+var str = "Hello world!";
+var res=str.repeat(2);
+console.log(res)
 
 
 
 
 
 
+ 
 
 
 
